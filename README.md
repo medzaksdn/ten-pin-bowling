@@ -1,5 +1,5 @@
 # Ten-Pin Bowling
-Description
+Just a program that takes as input a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the score Sheet for the game.
 
 ## Requirements
 
