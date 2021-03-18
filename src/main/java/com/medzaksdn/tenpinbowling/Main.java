@@ -16,7 +16,7 @@ public class Main {
         try {
             game.setSequence(sequence);
             System.out.println("***** Score Sheet *****");
-            game.printScoreSheet();
+            game.printScoreSheetAndReturnTotal();
         } catch(final IllegalArgumentException e){
             System.out.println(e.getMessage());
             System.exit(-1);

@@ -11,7 +11,7 @@ import java.util.Map;
 public class Game {
     private Map<Integer, List<BowlingThrow>> bowlingFrames;
 
-    public void setSequence(final String  sequence) {
+    public void setSequence(final String sequence) {
         bowlingFrames = new HashMap<>();
         int numberOfFrames=0;
         boolean frameEnd = false;
@@ -43,7 +43,7 @@ public class Game {
         }
     }
 
-    public void printScoreSheet() {
+    public int printScoreSheetAndReturnTotal() {
         System.out.println(this.bowlingFrames.size());
         System.out.print("Frame :         ");
         for(int i=0; i<this.bowlingFrames.size(); i++) {
@@ -96,6 +96,7 @@ public class Game {
         }
         System.out.println();
         System.out.println("Total score : "+ totalScore);
+        return totalScore;
     }
 
 }
