@@ -3,7 +3,7 @@ Just a program that takes as input a valid sequence of rolls for one line of Ame
 
 ## Requirements
 
-Java installed.
+Java 1.8 or higher.
 
 Maven installed.
 
